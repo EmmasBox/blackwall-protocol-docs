@@ -9,7 +9,7 @@ You can set a number of settings through toml files in Blackwall protocol. Like 
 
 ## Location of the toml file
 
-In the .config folder in your user folder you will have to create a folder called "blackwall", if the .config folder does not already exist create it.
+In the .config folder in your user folder you will have to create a folder called "blackwall", if the .config folder does not already exist create it. In your newly created folder put the user_config.toml file.
 
 Example path:
 
