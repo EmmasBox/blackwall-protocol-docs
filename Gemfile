@@ -34,3 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # For generating a site map
 gem 'jekyll-sitemap'
+
+gem "webrick", "~> 1.8"
