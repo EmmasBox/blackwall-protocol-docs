@@ -29,7 +29,7 @@ emojis = true
 
 ### Display section
 
-| Setting | Description | On by default |
+| Setting | Description | Default value |
 |---------|-------------|---------|
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
