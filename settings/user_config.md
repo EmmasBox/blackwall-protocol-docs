@@ -17,15 +17,6 @@ Example path:
 /u/sperva/.config/blackwall/user_config.toml
 ```
 
-## Available parameters
-
-### Display section
-
-| Setting | Description | On by default |
-|---------|-------------|---------|
-| logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
-| emojis        | Can be used to disable or enable emojis | true        |
-
 ## Example of a user config
 
 ```toml
@@ -33,3 +24,12 @@ Example path:
 logo = true
 emojis = true
 ```
+
+## All available parameters
+
+### Display section
+
+| Setting | Description | On by default |
+|---------|-------------|---------|
+| logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
+| emojis        | Can be used to disable or enable emojis | true        |
