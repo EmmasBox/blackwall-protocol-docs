@@ -25,3 +25,11 @@ Example path:
 |---------|-------------|---------|
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
+
+## Example of a user config
+
+```toml
+[display]
+logo = true
+emojis = true
+```
