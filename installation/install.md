@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Installation
+parent: Setup
 ---
 
 # Installation
