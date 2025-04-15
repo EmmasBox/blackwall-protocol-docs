@@ -1,3 +1,8 @@
+---
+layout: page
+nav_exclude: false
+---
+
 # Required permissions
 
 Make sure each user that is supposed to use this software has access to the following RACF profiles:

@@ -1,3 +1,7 @@
+---
+layout: page
+nav_exclude: false
+---
 
 # Installation
 
