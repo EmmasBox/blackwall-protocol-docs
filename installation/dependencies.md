@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Interfaces
+parent: Setup
 ---
 
 # Dependencies

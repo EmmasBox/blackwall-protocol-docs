@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installation
+title: Setup
 has_children: true
 has_toc: false
 ---
