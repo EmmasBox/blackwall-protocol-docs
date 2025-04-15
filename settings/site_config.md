@@ -20,11 +20,20 @@ Example path:
 ## Example of a site config
 
 ```toml
+[meta]
+company = "Wilford Industries"
+
 [welcome]
 logo_path = "cool_logo.png"
 ```
 
 ## All available parameters
+
+### Meta section
+
+| Setting | Description | Default value |
+|---------|-------------|---------|
+| company | Can be used to supply a company name, this will be used in a variety of places such as the program header | None        |
 
 ### Welcome section
 
