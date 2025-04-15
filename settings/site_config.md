@@ -1,6 +1,6 @@
 ---
-layout: page
-nav_exclude: false
+layout: default
+parent: Settings
 ---
 
 # Site settings
