@@ -33,7 +33,7 @@ logo_path = "cool_logo.png"
 
 | Setting | Description | Default value |
 |---------|-------------|---------|
-| company | Can be used to supply a company name, this will be used in a variety of places such as the program header | None        |
+| company | Can be used to set a company name, this will be used in a variety of places such as the program header | None        |
 
 ### Welcome section
 
