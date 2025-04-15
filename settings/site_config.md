@@ -6,6 +6,7 @@ nav_exclude: false
 # Site settings
 
 You can set a number of settings through toml files in Blackwall protocol. Like a company logo.
+Please note that the site settings affect ALL Blackwall users on the system.
 
 ## Location of the toml file
 
