@@ -23,6 +23,7 @@ Example path:
 [display]
 logo = true
 emojis = true
+system_label = true
 ```
 
 ## All available parameters
