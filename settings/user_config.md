@@ -33,3 +33,4 @@ emojis = true
 |---------|-------------|---------|
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
+| system_label        | Can be used to turn the system label at the top off the screen on or off | true        |
