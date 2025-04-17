@@ -7,7 +7,7 @@ parent: Usage
 
 ## Changing theme
 
-You can open the theme menu by using **ctrl+p** and then picking "Change theme"
+You can open the theme menu by using **ctrl+p** and then picking "Change theme".
 
 ![Screenshot of opening the theme menu in the command palette](/../assets/images/screenshots/show_theme_menu.png)
 

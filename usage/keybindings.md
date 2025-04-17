@@ -7,7 +7,7 @@ parent: Usage
 
 ## Opening the keybindings menu
 
-You can open the keybindings menu by pressing **ctrl+p** and picking the "Show keys and help panel":
+You can open the keybindings menu by pressing **ctrl+p** and picking the "Show keys and help panel".
 
 ![Screenshot of opening the keybindings menu in the command palette](/../assets/images/screenshots/show_keybinding_menu.png)
 
