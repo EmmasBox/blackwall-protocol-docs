@@ -24,6 +24,7 @@ Example path:
 logo = true
 emojis = true
 system_label = true
+theme = "cynosure"
 
 [commands]
 clear_on_submission = true
@@ -38,6 +39,7 @@ clear_on_submission = true
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
 | system_label        | Can be used to turn the system label at the top off the screen on or off | true        |
+| theme        | You can use this to set the default theme when opening up the application, can still be changed manually inside of the application | cynosure        |
 
 ### Commands section
 
