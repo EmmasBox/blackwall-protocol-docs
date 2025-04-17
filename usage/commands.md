@@ -13,7 +13,7 @@ You can submit TSO and RACF commands in the command line at the top of the progr
 
 ## Viewing output of commands
 
-To view the output of the commands you can either open a tab with the command by pressing **ctrl+l** or opening it in a separate screen with **h**
+To view the output of the commands you can either open a tab with the command by pressing **ctrl+l** or opening it in a separate screen by pressing **h** on your keyboard.
 
 Command output in a tab:
 ![Screenshot of command output in a tab](/../assets/images/screenshots/command_history_tab.png)
