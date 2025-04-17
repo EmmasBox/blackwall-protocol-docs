@@ -24,6 +24,9 @@ Example path:
 logo = true
 emojis = true
 system_label = true
+
+[commands]
+clear_on_submission = true
 ```
 
 ## All available parameters
@@ -35,3 +38,7 @@ system_label = true
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
 | system_label        | Can be used to turn the system label at the top off the screen on or off | true        |
+
+### Commands section
+
+| clear_on_submission        | If this option is set to false then the command field will retain the input after submitting the command, by default it will clear the field | true        |
