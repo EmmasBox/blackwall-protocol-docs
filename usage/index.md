@@ -14,4 +14,5 @@ Review the following pages.
 
 * [Commands](./commands.md)
 * [Keybindings](./keybindings.md)
+* [Tabs](./tabs.md)
 * [Themes](./themes.md)
