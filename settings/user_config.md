@@ -28,6 +28,9 @@ theme = "cynosure"
 
 [commands]
 clear_on_submission = true
+
+[locale]
+date_format = "ymd" #valid values mdy, dmy, or ymd
 ```
 
 ## All available parameters
@@ -44,3 +47,7 @@ clear_on_submission = true
 ### Commands section
 
 | clear_on_submission        | If this option is set to false then the command field will retain the input after submitting the command, by default it will clear the field | true        |
+
+### Locale section
+
+| date_format        | This can be used to set the formatting of dates handled by Blackwall. Please note that it will not affect dates in command output. | dmy        |
