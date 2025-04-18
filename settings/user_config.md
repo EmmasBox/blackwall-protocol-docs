@@ -46,8 +46,12 @@ date_format = "ymd" #valid values mdy, dmy, or ymd
 
 ### Commands section
 
+| Setting | Description | Default value |
+|---------|-------------|---------|
 | clear_on_submission        | If this option is set to false then the command field will retain the input after submitting the command, by default it will clear the field | true        |
 
 ### Locale section
 
+| Setting | Description | Default value |
+|---------|-------------|---------|
 | date_format        | This can be used to set the formatting of dates handled by Blackwall. Please note that it will not affect dates in command output. | dmy        |
