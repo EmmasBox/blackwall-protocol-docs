@@ -30,7 +30,7 @@ theme = "cynosure"
 clear_on_submission = true
 
 [locale]
-date_format = "ymd" #valid values mdy, dmy, or ymd
+date_format = "ymd" #valid values are mdy, dmy, or ymd
 ```
 
 ## All available parameters
