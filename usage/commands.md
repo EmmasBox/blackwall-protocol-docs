@@ -7,7 +7,7 @@ parent: Usage
 
 ## Submitting TSO and RACF commands
 
-You can submit TSO and RACF commands in the command line at the top of the program. The command lines comes with basic command suggestion and autocompletion built in. To complete a suggestion press the right arrow key on your keyboard.
+You can submit TSO and RACF commands in the command line at the top of the program. The command lines comes with basic command suggestion and autocompletion built in. To complete a suggestion press the right arrow key on your keyboard. You can also cycle through previously executed commands with the **up** an **down** arrow keys.
 
 ![Screenshot of command line](/../assets/images/screenshots/command_line.png)
 
