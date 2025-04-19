@@ -9,8 +9,11 @@ has_toc: false
 Below you can see a simplified architecture flowchart.
 
 **RED** indicates that it is a part of Blackwall
+
 **GREEN** indicates it is tied to Python
+
 **YELLOW** indicates it is part of z/OS or a core subsystem
+
 **BLUE** indicates it is a third party Python package
 
 <pre class="mermaid">
