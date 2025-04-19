@@ -10,9 +10,9 @@ Below you can see a simplified architecture flowchart
 
 <pre class="mermaid">
 flowchart TD
-    BLACKWALL(["Blackwall"])
+    BLACKWALL(["Blackwall program"])
     PYTHON(["Python"])
-    TEXTUAL(["Textual"])
+    TEXTUAL(["Textual application"])
     BLACKWALL --> TEXTUAL
     BLACKWALL --- PYTHON
     TEXTUAL --> COMMANDLINE
@@ -28,10 +28,16 @@ flowchart TD
     COMMANDLINE(["Blackwall command line"])
     SUBPROCESS(["Python subprocess"])
     TSOCMD(["TSOCMD"])
-    ZOS(["z/OS"])
+    ZOSCOMMAND(["Command executed on z/OS"])
+    
     COMMANDLINE --> SUBPROCESS
     SUBPROCESS --> TSOCMD
-    TSOCMD --> ZOS
+    TSOCMD --> ZOSCOMMAND
+
+    ZOAU(["Z Open Automation Utilities (optional)"])
+    ZOS(["z/OS"])
+    ZOS --> ZOAU
+    ZOAU --> TEXTUAL
 
     PANELS(["Blackwall tab panels"])
     WRAPPER(["Blackwall API wrapper"])
@@ -39,9 +45,9 @@ flowchart TD
     COREAPI(["IRRSEQ00 and IRRSMO00"])
     SAF(["SAF"])
     RACF(["RACF"])
-    PANELS --> WRAPPER
-    WRAPPER --> RACFU
-    RACFU --> COREAPI
-    COREAPI --> SAF
-    SAF --> RACF
+    PANELS <--> WRAPPER
+    WRAPPER <--> RACFU
+    RACFU <--> COREAPI
+    COREAPI <--> SAF
+    SAF <--> RACF
 </pre>
