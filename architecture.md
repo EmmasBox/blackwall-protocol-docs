@@ -10,6 +10,7 @@ Below you can see a simplified architecture flowchart
 
 <pre class="mermaid">
 flowchart TD
+    style BLACKWALL fill:#a11616,color:#fff,stroke:#2b2a33
     BLACKWALL(["Blackwall program"])
     PYTHON(["Python"])
     TEXTUAL(["Textual application"])
@@ -18,13 +19,16 @@ flowchart TD
     TEXTUAL --> COMMANDLINE
     PYTHON --- TEXTUAL
 
+    style TABS fill:#a11616,color:#fff,stroke:#2b2a33
     TABS(["Tab system"])
     TEXTUAL --> TABS
     TABS --> PANELS
 
+    style BLACKWALLSCREENS fill:#a11616,color:#fff,stroke:#2b2a33
     BLACKWALLSCREENS(["Blackwall screens"])
     TEXTUAL --> BLACKWALLSCREENS
 
+    style COMMANDLINE fill:#a11616,color:#fff,stroke:#2b2a33
     COMMANDLINE(["Blackwall command line"])
     SUBPROCESS(["Python subprocess"])
     TSOCMD(["TSOCMD"])
@@ -39,7 +43,9 @@ flowchart TD
     ZOS --> ZOAU
     ZOAU --> TEXTUAL
 
+    style PANELS fill:#a11616,color:#fff,stroke:#2b2a33
     PANELS(["Blackwall tab panels"])
+    style WRAPPER fill:#a11616,color:#fff,stroke:#2b2a33
     WRAPPER(["Blackwall API wrapper"])
     RACFU(["RACFU"])
     COREAPI(["IRRSEQ00 and IRRSMO00"])
