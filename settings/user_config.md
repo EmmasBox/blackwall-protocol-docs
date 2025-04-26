@@ -31,6 +31,9 @@ clear_on_submission = true
 
 [locale]
 date_format = "ymd" #valid values are mdy, dmy, or ymd
+
+[notifications]
+use_modal = true
 ```
 
 ## All available parameters
@@ -54,4 +57,10 @@ date_format = "ymd" #valid values are mdy, dmy, or ymd
 
 | Setting | Description | Default value |
 |---------|-------------|---------|
-| date_format        | This can be used to set the formatting of dates handled by Blackwall. Please note that it will not affect dates in command output. | dmy        |
+| date_format | This can be used to set the formatting of dates handled by Blackwall. Please note that it will not affect dates in command output. | dmy        |
+
+### Notifications
+
+| Setting | Description | Default value |
+|---------|-------------|---------|
+| use_modal | When this is enabled a modal will pop up when things fail, that you will have to dismiss, this makes it harder to miss mistakes. | false        |
