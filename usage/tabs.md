@@ -15,7 +15,7 @@ You can open a new tab by pressing a variety of key presses, to open a user mana
 
 ## Closing tabs
 
-You can close the currently active tab by pressing **r** on the keyboard, you can clear all of the active tabs by pressing **c** on the keyboard, please don't do this if you have any unsaved work in your tabs.
+You can close the currently active tab by pressing **ctrl+w** on the keyboard, you can clear all of the active tabs by pressing **ctrl+shift+w** on the keyboard, please don't do this if you have any unsaved work in your tabs.
 
 ## Navigating tabs
 
