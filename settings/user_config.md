@@ -63,4 +63,4 @@ use_modal = true #valid values: true or false
 
 | Setting | Description | Default value |
 |---------|-------------|---------|
-| use_modal | When this is enabled a modal will pop up when things fail, that you will have to dismiss, this makes it harder to miss mistakes. | false        |
+| use_modal | When this is enabled a modal will pop up when things fail, which you will have to dismiss, this makes it harder to miss mistakes. | false        |
