@@ -21,19 +21,19 @@ Example path:
 
 ```toml
 [display]
-logo = true
-emojis = true
-system_label = true
+logo = true #valid values: true or false
+emojis = true #valid values: true or false
+system_label = true #valid values: true or false
 theme = "cynosure"
 
 [commands]
-clear_on_submission = true
+clear_on_submission = true #valid values: true or false
 
 [locale]
 date_format = "ymd" #valid values are mdy, dmy, or ymd
 
 [notifications]
-use_modal = true
+use_modal = true #valid values: true or false
 ```
 
 ## All available parameters
