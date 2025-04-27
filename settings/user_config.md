@@ -24,6 +24,7 @@ Example path:
 logo = true #valid values: true or false
 emojis = true #valid values: true or false
 system_label = true #valid values: true or false
+short_system_label = true #valid values: true or false
 theme = "cynosure"
 
 [commands]
@@ -45,6 +46,7 @@ use_modal = true #valid values: true or false
 | logo    | Can be used to disable or enable the logo on the welcome screen, if the image version is installed            | true        |
 | emojis        | Can be used to disable or enable emojis | true        |
 | system_label        | Can be used to turn the system label at the top off the screen on or off | true        |
+| short_system_label        | When enabled this will make the system name and LPAR name easier to read at a glance | false        |
 | theme        | You can use this to set the default theme when opening up the application, can still be changed manually inside of the application | cynosure        |
 
 ### Commands section
