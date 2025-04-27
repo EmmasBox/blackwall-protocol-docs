@@ -27,6 +27,9 @@ system_label = true #valid values: true or false
 short_system_label = true #valid values: true or false
 theme = "cynosure"
 
+[tabs]
+default_tab = "user" #valid values are: search, user, group, dataset, resource, options, and commands
+
 [commands]
 clear_on_submission = true #valid values: true or false
 
@@ -48,6 +51,12 @@ use_modal = true #valid values: true or false
 | system_label        | Can be used to turn the system label at the top off the screen on or off | true        |
 | short_system_label        | When enabled this will make the system name and LPAR name easier to read at a glance | false        |
 | theme        | You can use this to set the default theme when opening up the application, can still be changed manually inside of the application | cynosure        |
+
+### Tabs section
+
+| Setting | Description | Default value |
+|---------|-------------|---------|
+| default_tab | You can use this to set which tab the program should initially start on when opening up the program, see example for options. | None        |
 
 ### Commands section
 
