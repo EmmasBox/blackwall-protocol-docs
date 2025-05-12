@@ -14,10 +14,10 @@ parent: Setup
   - OMVS in ISPF does not work due to a lack of terminal features.
 - Python 3.12 or later.
 
-### Python packages
+#### Python packages
 
 - Textual 3.2.0 or later (for UI)
-- [RACFU](https://github.com/ambitus/racfu) (To communicate with RACF)
+- [RACFU](https://github.com/ambitus/racfu) 1.0a2-dev2 (To communicate with RACF)
   - RACFU being a dependency means you need the IRRSEQ00, IRRSMO00 and RACF Subsystem Address Space configured.
 
 ## Optional dependencies
